@@ -6,6 +6,6 @@
 n = int(input("Введите кол-во элементов первого множества"))
 m = int(input("Введите кол-во элементов второго множества"))
 a = set([int(input("введите элементы первого множества")) for i in range(n)])
-b = set([int(input("введите элементы второго множества")) for i in range(n)])
+b = set([int(input("введите элементы второго множества")) for i in range(m)])
 c = a.intersection(b)
 print(c)
